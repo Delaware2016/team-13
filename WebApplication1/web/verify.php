@@ -19,13 +19,15 @@
 		    		break;
 		    	}
 			}
-
+			echo "hello";
 	    	if (!$validLogin) {
 	    		echo "Invalid login.\n";
 	    		echo "<a href='login.html'>Try again</a>";
 	    	}
                 
-                
+            else {
+            	header ("Location: profileInfo.html");
+            }
                 
 
             flock($fileptr, LOCK_UN);
