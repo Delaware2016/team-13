@@ -15,7 +15,7 @@ Licensed under MIT
 ***/
 
 body {
-  background: #F1F3FA;
+  /*background: #F1F3FA;*/
 }
 
 /* Profile container */
@@ -26,7 +26,7 @@ body {
 /* Profile sidebar */
 .profile-sidebar {
   padding: 20px 0 10px 0;
-  background: #fff;
+  /*background: #fff;*/
 }
 
 .profile-userpic img {
@@ -100,8 +100,8 @@ body {
 }
 
 .profile-usermenu ul li a:hover {
-  background-color: #fafcfd;
-  color: #5b9bd1;
+  /*background-color: #E6P1FA;*/
+  /*color: #5b9bd1;*/
 }
 
 .profile-usermenu ul li.active {
@@ -110,7 +110,7 @@ body {
 
 .profile-usermenu ul li.active a {
   color: #5b9bd1;
-  background-color: #f6f9fb;
+/*  background-color: #f6f9fb;*/
   border-left: 2px solid #5b9bd1;
   margin-left: -2px;
 }
@@ -118,6 +118,6 @@ body {
 /* Profile Content */
 .profile-content {
   padding: 20px;
-  background: #fff;
+  /*background: #fff;*/
   min-height: 460px;
 }
