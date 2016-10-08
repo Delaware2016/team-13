@@ -1,25 +1,14 @@
 
 <!DOCTYPE html> 
 <html>
+    <link rel="stylesheet" type="text/css" href="juice.css">
+    <script type="text/javascript" src="juice.js"></script>
 	<head>
 		<title>Login</title>
-		<style type="text/css">
-			.textbox
-			{ 
-				color: #FF0000; 
-				height: 25px; 
-				width: 218px; 
-				padding: 2px 5px 2px 5px; 
-				border-style: solid; 
-				background-color: #FFFFFF;
-				font-family: courier; 
-				font-size: 14px;
-			}
-		</style>
 	</head>
 
 	<body>
-	<center>
+<!--	<center>
 		<h3>Login</h3>
 		<form action="verify.php" method="POST">
 			Username: <br><input type="text" name="username" class="textbox"> <br><br>
@@ -28,5 +17,32 @@
 			<a href="index.html">Back</a>
 		</form>
 	</center>
+        
+        ------------------------------------------>
+        
+            <div class="login-page">
+        <div class="form">
+            <form class="register-form" action="verify.php" method="POST">
+                <input type="text" placeholder="name"/>
+                <input type="password" placeholder="password"/>
+                <input type="text" placeholder="email address"/>
+                <button>create</button>
+                <p class="message">Already registered? <a href="#">Sign In</a></p>
+            </form>
+            <form class="login-form" action="verify.php" method="POST">
+                <input type="text" placeholder="username"/>
+                <input type="password" placeholder="password"/>
+                <button>login</button>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+        
+        
+        
+        
+        
+        
+        -------------------------------
 	</body>
 </html>
