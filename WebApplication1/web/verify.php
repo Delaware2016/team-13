@@ -24,6 +24,9 @@
 	    		echo "Invalid login.\n";
 	    		echo "<a href='login.html'>Try again</a>";
 	    	}
+                
+                
+                
 
             flock($fileptr, LOCK_UN);
             fclose($fileptr);
