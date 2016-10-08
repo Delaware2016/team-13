@@ -1,0 +1,15 @@
+<?php
+	echo "hi";
+?>
+
+
+<html>
+<head>
+	<title>Profile</title>
+</head>
+<body>
+
+<img src="pfp.jpeg">
+
+</body>
+</html>
