@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
+
+
     <head >
         <link rel="stylesheet" type="text/css" href="profile.css">
-        <title>TODO supply a title</title>
+        <title>Profile</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -25,11 +22,16 @@ and open the template in the editor.
 
         </div>
         <div class="profile-userbuttons">
+            <button type="button" class="btn btn-success btn-sm" id="home">Home</button>
             <button type="button" class="btn btn-success btn-sm">Follow</button>
             <button type="button" class="btn btn-danger btn-sm">Message</button>
         </div>
 
-
+        <script>
+            document.getElementById("home").onclick = function () {
+                location.href = "HomePage.html";
+            };
+        </script>
 
 
         <br>
